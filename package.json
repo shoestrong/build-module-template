@@ -1,0 +1,31 @@
+{
+  "name": "build-module-template",
+  "version": "1.0.0",
+  "description": "Create a template with roolup and typescript",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c",
+    "test": "jest --no-cache"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shoestrong/build-module-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shoestrong/build-module-template/issues"
+  },
+  "homepage": "https://github.com/shoestrong/build-module-template#readme",
+  "devDependencies": {
+    "@types/jest": "^24.0.19",
+    "jest": "^24.9.0",
+    "rollup": "^1.24.0",
+    "rollup-plugin-sourcemaps": "^0.4.2",
+    "rollup-plugin-typescript": "^1.0.1",
+    "ts-jest": "^24.1.0",
+    "tslib": "^1.10.0",
+    "typescript": "^3.6.4"
+  }
+}
